@@ -7,7 +7,6 @@ manager = Manager(app)
 
 @app.route('/')
 def index():
-    current_app.logger.info("hello index")
     current_app.logger.error("error index")
     return 'Flask deploy'
 
